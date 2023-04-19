@@ -1,0 +1,23 @@
+Container(
+                    alignment: Alignment.center,
+                    margin: const EdgeInsets.all(5.0),
+                    child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          const Text(
+                            '¿No tienes una cuenta? ',
+                            style: TextStyle(fontSize: 16),
+                          ),
+                          TextButton(
+                            onPressed: () => showDialog(
+                              context: context,
+                              builder: (BuildContext context) =>
+                              const LoginNew(),
+                            ),
+                            child: const Text(
+                              'Regístrate',
+                              style: TextStyle(
+                                  fontSize: 16, fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ])),
