@@ -10,8 +10,8 @@ enum Servicios {
   validaVer }
 
 class Direcciones{
-  final String protocolo = 'http://';
-  final String dire = 'app2.sunfruits.com.pe:9571/api';
+  final String protocolo = 'https://';
+  final String dire = 'app.sunfruits.com.pe:9571/api';
   final String getNotificaciones = "/Notificacion/getNotificacionesActivas";
   final String getDocumentos = "/Documento/getDocumentos";
   final String saveFirma = "/Documento/saveFirma";

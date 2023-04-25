@@ -170,7 +170,7 @@ class _LoginPage extends State<LoginPage> {
                 Container(
                     alignment: Alignment.center,
                     child: const Text(
-                        'Urano - v 0.01',
+                        'Urano - v 0.02',
                         style: TextStyle(
                             fontSize: 18,
                             color: Colors.deepOrange,
